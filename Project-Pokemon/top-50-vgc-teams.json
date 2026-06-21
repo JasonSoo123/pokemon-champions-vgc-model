@@ -1,0 +1,6202 @@
+[
+  {
+    "team": [
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Detect",
+          "Hyper Voice",
+          "Yawn",
+          "Quick Attack"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Sucker Punch",
+          "Kowtow Cleave",
+          "Low Kick",
+          "Iron Head"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Focus Sash",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Last Respects",
+          "Aqua Jet",
+          "Liquidation"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Tomb",
+          "Earthquake",
+          "Dragon Claw",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Tailwind",
+          "Dual Wingbeat",
+          "Rock Slide",
+          "Wide Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Soft Sand",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Dragon Claw",
+          "Stomping Tantrum",
+          "Earthquake"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Detect",
+          "Quick Attack",
+          "Hyper Voice",
+          "Hyper Beam"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Farigiraf",
+        "item": "Sitrus Berry",
+        "ability": "Armor Tail",
+        "nature": "Bold",
+        "moves": [
+          "Twin Beam",
+          "Thunderbolt",
+          "Roar",
+          "Trick Room"
+        ],
+        "evs": [
+          32,
+          0,
+          23,
+          0,
+          11,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Focus Sash",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Dual Wingbeat",
+          "Ice Fang",
+          "Tailwind"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Mamoswine",
+        "item": "Focus Sash",
+        "ability": "Oblivious",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Icicle Crash",
+          "Earthquake",
+          "Ice Shard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "item": "Leftovers",
+        "ability": "Regenerator",
+        "nature": "Bold",
+        "moves": [
+          "Baneful Bunker",
+          "Infestation",
+          "Toxic",
+          "Wide Guard"
+        ],
+        "evs": [
+          32,
+          0,
+          32,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Close Combat",
+          "Fake Out",
+          "Dire Claw"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Hydreigon",
+        "item": "Choice Scarf",
+        "ability": "Levitate",
+        "nature": "Modest",
+        "moves": [
+          "Dark Pulse",
+          "Earth Power",
+          "Snarl",
+          "Draco Meteor"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Protect",
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "moves": [
+          "Fake Out",
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop"
+        ],
+        "evs": [
+          32,
+          0,
+          20,
+          0,
+          14,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Dazzling Gleam",
+          "Moonblast",
+          "Light of Ruin",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Aqua Jet",
+          "Last Respects",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Occa Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Iron Head",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Roseli Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Poison Jab"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Light of Ruin",
+          "Moonblast",
+          "Dazzling Gleam",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "moves": [
+          "Fake Out",
+          "Throat Chop",
+          "Flare Blitz",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          0,
+          20,
+          0,
+          14,
+          0
+        ]
+      },
+      {
+        "name": "Ceruledge",
+        "item": "Colbur Berry",
+        "ability": "Flash Fire",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Shadow Sneak",
+          "Bitter Blade",
+          "Bulk Up"
+        ],
+        "evs": [
+          30,
+          32,
+          0,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Fake Out",
+          "Dire Claw",
+          "Throat Chop",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Milotic",
+        "item": "Leftovers",
+        "ability": "Competitive",
+        "nature": "Bold",
+        "moves": [
+          "Hypnosis",
+          "Coil",
+          "Protect",
+          "Muddy Water"
+        ],
+        "evs": [
+          32,
+          0,
+          32,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Protect",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Draining Kiss"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Calm",
+        "moves": [
+          "Protect",
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Life Dew"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "moves": [
+          "Fake Out",
+          "Flare Blitz",
+          "Parting Shot",
+          "Throat Chop"
+        ],
+        "evs": [
+          32,
+          0,
+          20,
+          0,
+          14,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Choice Scarf",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "moves": [
+          "Dragon Claw",
+          "Earthquake",
+          "Rock Slide",
+          "Stomping Tantrum"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Iron Head",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Venusaur",
+        "item": "Focus Sash",
+        "ability": "Chlorophyll",
+        "nature": "Modest",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Protect",
+          "Sleep Powder"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unaware",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Dual Wingbeat",
+          "Ice Fang",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Close Combat",
+          "Gunk Shot",
+          "Fake Out"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Accelerock",
+          "Rock Slide",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Protect",
+          "Overheat",
+          "Giga Drain",
+          "Rage Powder"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Protect",
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Fake Out",
+          "Gunk Shot",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Protect",
+          "Giga Drain",
+          "Overheat",
+          "Rage Powder"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Protect",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Accelerock",
+          "Close Combat",
+          "Rock Slide"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Modest",
+        "moves": [
+          "Shadow Ball",
+          "Blizzard",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          2,
+          32,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Last Respects",
+          "Protect",
+          "Wave Crash",
+          "Aqua Jet"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Imprison",
+          "Trick Room"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Gardevoir-Mega",
+        "item": "Gardevoirite",
+        "ability": "Trace",
+        "nature": "Timid",
+        "moves": [
+          "Hyper Voice",
+          "Psyshock",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Blastoise",
+        "item": "Blastoisinite",
+        "ability": "Rain Dish",
+        "nature": "Modest",
+        "moves": [
+          "Dark Pulse",
+          "Water Spout",
+          "Protect",
+          "Shell Smash"
+        ],
+        "evs": [
+          1,
+          0,
+          1,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Jolly",
+        "moves": [
+          "Gunk Shot",
+          "Fake Out",
+          "Close Combat",
+          "Acrobatics"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Flare Blitz",
+          "Throat Chop",
+          "Fake Out",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Weavile",
+        "item": "Focus Sash",
+        "ability": "Pickpocket",
+        "nature": "Jolly",
+        "moves": [
+          "Triple Axel",
+          "Fake Out",
+          "Upper Hand",
+          "Feint"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Aqua Jet",
+          "Last Respects",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Dazzling Gleam",
+          "Moonblast",
+          "Light of Ruin",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Low Kick",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Weather Ball",
+          "Heat Wave",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Aerodactyl",
+        "item": "Focus Sash",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Protect",
+          "Tailwind",
+          "Wide Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Soft Sand",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Protect",
+          "Stomping Tantrum"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Farigiraf",
+        "item": "Sitrus Berry",
+        "ability": "Armor Tail",
+        "nature": "Calm",
+        "moves": [
+          "Psychic",
+          "Helping Hand",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Charcoal",
+        "ability": "Intimidate",
+        "nature": "Brave",
+        "moves": [
+          "Flare Blitz",
+          "Darkest Lariat",
+          "Fake Out",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Hyper Voice",
+          "Quick Attack",
+          "Detect",
+          "Yawn"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Fake Out",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Flip Turn"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Ceruledge",
+        "item": "Colbur Berry",
+        "ability": "Flash Fire",
+        "nature": "Adamant",
+        "moves": [
+          "Bitter Blade",
+          "Shadow Sneak",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          30,
+          32,
+          0,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Low Kick",
+          "Sucker Punch",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Dragonite",
+        "item": "Dragoninite",
+        "ability": "Multiscale",
+        "nature": "Modest",
+        "moves": [
+          "Dragon Pulse",
+          "Flamethrower",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Garchomp",
+        "item": "Soft Sand",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Earthquake",
+          "Dragon Claw",
+          "Stomping Tantrum"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Hyper Voice",
+          "Quick Attack",
+          "Hyper Beam"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Farigiraf",
+        "item": "Sitrus Berry",
+        "ability": "Armor Tail",
+        "nature": "Bold",
+        "moves": [
+          "Trick Room",
+          "Twin Beam",
+          "Roar",
+          "Thunderbolt"
+        ],
+        "evs": [
+          32,
+          0,
+          23,
+          0,
+          11,
+          0
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Ice Fang",
+          "Tailwind",
+          "Dual Wingbeat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Focus Sash",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Low Kick",
+          "Sucker Punch"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Relaxed",
+        "moves": [
+          "Protect",
+          "Trick Room",
+          "Rage Powder",
+          "Matcha Gotcha"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Choice Scarf",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "moves": [
+          "Earthquake",
+          "Rock Slide",
+          "Dragon Claw",
+          "Stomping Tantrum"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Calm Mind",
+          "Draining Kiss",
+          "Moonblast"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Venusaur",
+        "item": "Focus Sash",
+        "ability": "Chlorophyll",
+        "nature": "Timid",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Sleep Powder",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Flare Blitz",
+          "Throat Chop",
+          "Parting Shot",
+          "Fake Out"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Dire Claw",
+          "Close Combat",
+          "Protect",
+          "Fake Out"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Swords Dance",
+          "Sucker Punch",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Aqua Jet",
+          "Last Respects",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Overheat",
+          "Giga Drain",
+          "Rage Powder",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Jolly",
+        "moves": [
+          "Accelerock",
+          "Rock Slide",
+          "Close Combat",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Protect",
+          "Iron Head"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Protect",
+          "Aqua Jet",
+          "Last Respects"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Protect",
+          "Solar Beam"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Tailwind",
+          "Protect",
+          "Encore"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Protect",
+          "Light of Ruin"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Garchomp",
+        "item": "Roseli Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Dragon Claw",
+          "Earthquake",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Ice Fang",
+          "Tailwind",
+          "Wide Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Focus Sash",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Sucker Punch",
+          "Kowtow Cleave",
+          "Iron Head",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Farigiraf",
+        "item": "Sitrus Berry",
+        "ability": "Armor Tail",
+        "nature": "Sassy",
+        "moves": [
+          "Psychic",
+          "Thunderbolt",
+          "Protect",
+          "Trick Room"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Hyper Voice",
+          "Hyper Beam",
+          "Quick Attack",
+          "Detect"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Fake Out",
+          "Close Combat",
+          "Dire Claw",
+          "Quick Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Heat Wave",
+          "Psyshock",
+          "Nasty Plot",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop",
+          "Fake Out"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Venusaur",
+        "item": "Occa Berry",
+        "ability": "Chlorophyll",
+        "nature": "Modest",
+        "moves": [
+          "Sludge Bomb",
+          "Earth Power",
+          "Sleep Powder",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Brave",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Low Kick",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "moves": [
+          "Wave Crash",
+          "Aqua Jet",
+          "Flip Turn",
+          "Last Respects"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Weather Ball",
+          "Solar Beam",
+          "Heat Wave",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Close Combat",
+          "Gunk Shot",
+          "Fake Out",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Calm",
+        "moves": [
+          "Overheat",
+          "Rage Powder",
+          "Leech Seed",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          19,
+          0,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Protect",
+          "Low Kick",
+          "Sucker Punch"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Toxapex",
+        "item": "Leftovers",
+        "ability": "Regenerator",
+        "nature": "Relaxed",
+        "moves": [
+          "Infestation",
+          "Wide Guard",
+          "Recover",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          2,
+          0,
+          32,
+          0
+        ]
+      },
+      {
+        "name": "Snorlax",
+        "item": "Sitrus Berry",
+        "ability": "Thick Fat",
+        "nature": "Impish",
+        "moves": [
+          "Fissure",
+          "Yawn",
+          "Protect",
+          "Double-Edge"
+        ],
+        "evs": [
+          32,
+          0,
+          32,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Flip Turn",
+          "Aqua Jet"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Iron Head"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Dual Wingbeat",
+          "Tailwind",
+          "Rock Slide"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Focus Sash",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Aqua Jet",
+          "Liquidation",
+          "Last Respects"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Choice Scarf",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "moves": [
+          "Rock Slide",
+          "Dragon Claw",
+          "Stomping Tantrum",
+          "Earthquake"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Hyper Beam",
+          "Quick Attack",
+          "Hyper Voice"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Venusaur",
+        "item": "Focus Sash",
+        "ability": "Chlorophyll",
+        "nature": "Timid",
+        "moves": [
+          "Sleep Powder",
+          "Sludge Bomb",
+          "Earth Power",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Choice Scarf",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "moves": [
+          "Earthquake",
+          "Rock Slide",
+          "Stomping Tantrum",
+          "Dragon Claw"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Fake Out",
+          "Flare Blitz",
+          "Parting Shot",
+          "Throat Chop"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Relaxed",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Adamant",
+        "moves": [
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect",
+          "Earthquake"
+        ],
+        "evs": [
+          22,
+          30,
+          0,
+          0,
+          3,
+          11
+        ]
+      },
+      {
+        "name": "Farigiraf",
+        "item": "Colbur Berry",
+        "ability": "Armor Tail",
+        "nature": "Modest",
+        "moves": [
+          "Psychic",
+          "Hyper Voice",
+          "Trick Room",
+          "Helping Hand"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Hyper Beam",
+          "Hyper Voice",
+          "Quick Attack",
+          "Protect"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Glimmora-Mega",
+        "item": "Glimmoranite",
+        "ability": "Toxic Debris",
+        "nature": "Modest",
+        "moves": [
+          "Spiky Shield",
+          "Power Gem",
+          "Sludge Bomb",
+          "Earth Power"
+        ],
+        "evs": [
+          27,
+          0,
+          0,
+          20,
+          1,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Fake Out",
+          "Close Combat",
+          "Dire Claw",
+          "Quick Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Heat Wave",
+          "Psyshock",
+          "Nasty Plot",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop",
+          "Fake Out"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Heat Wave",
+          "Psyshock",
+          "Nasty Plot",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Flare Blitz",
+          "Throat Chop",
+          "Parting Shot",
+          "Fake Out"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Fake Out",
+          "Quick Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Occa Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Sucker Punch",
+          "Kowtow Cleave",
+          "Protect",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Corviknight",
+        "item": "Leftovers",
+        "ability": "Mirror Armor",
+        "nature": "Adamant",
+        "moves": [
+          "Brave Bird",
+          "Iron Head",
+          "Protect",
+          "Tailwind"
+        ],
+        "evs": [
+          32,
+          4,
+          1,
+          0,
+          13,
+          16
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Dragon Claw",
+          "Earthquake",
+          "Protect",
+          "Rock Slide"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Arcanine-Hisui",
+        "item": "Focus Sash",
+        "ability": "Rock Head",
+        "nature": "Jolly",
+        "moves": [
+          "Flare Blitz",
+          "Head Smash",
+          "Protect",
+          "Extreme Speed"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Tyranitar-Mega",
+        "item": "Tyranitarite",
+        "ability": "Sand Stream",
+        "nature": "Adamant",
+        "moves": [
+          "Rock Slide",
+          "Knock Off",
+          "Protect",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Samurott-Hisui",
+        "item": "Choice Scarf",
+        "ability": "Sharpness",
+        "nature": "Jolly",
+        "moves": [
+          "Aqua Cutter",
+          "Night Slash",
+          "Sacred Sword",
+          "Flip Turn"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Blizzard",
+          "Shadow Ball",
+          "Protect",
+          "Aurora Veil"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Hyper Voice",
+          "Hyper Beam",
+          "Quick Attack",
+          "Protect"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Dual Wingbeat",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Rock Tomb",
+          "Dragon Claw",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Iron Head",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Focus Sash",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Liquidation",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Tailwind",
+          "Moonblast",
+          "Encore",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Weather Ball",
+          "Heat Wave",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Iron Head",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Light of Ruin",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Dragon Claw",
+          "Earthquake",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Dire Claw",
+          "Close Combat",
+          "Protect",
+          "Fake Out"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Swords Dance",
+          "Sucker Punch",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Aqua Jet",
+          "Last Respects",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Overheat",
+          "Giga Drain",
+          "Rage Powder",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Jolly",
+        "moves": [
+          "Accelerock",
+          "Rock Slide",
+          "Close Combat",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Fake Out",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Blastoise",
+        "item": "Blastoisinite",
+        "ability": "Rain Dish",
+        "nature": "Modest",
+        "moves": [
+          "Water Spout",
+          "Dark Pulse",
+          "Shell Smash",
+          "Protect"
+        ],
+        "evs": [
+          1,
+          0,
+          1,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "moves": [
+          "Flare Blitz",
+          "Helping Hand",
+          "Fake Out",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          0,
+          20,
+          0,
+          14,
+          0
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Relaxed",
+        "moves": [
+          "Matcha Gotcha",
+          "Life Dew",
+          "Rage Powder",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Draining Kiss",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Close Combat",
+          "Dire Claw",
+          "Fake Out",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Blastoise",
+        "item": "Blastoisinite",
+        "ability": "Rain Dish",
+        "nature": "Modest",
+        "moves": [
+          "Water Spout",
+          "Dark Pulse",
+          "Shell Smash",
+          "Protect"
+        ],
+        "evs": [
+          1,
+          0,
+          1,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "moves": [
+          "Flare Blitz",
+          "Helping Hand",
+          "Fake Out",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          0,
+          20,
+          0,
+          14,
+          0
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Relaxed",
+        "moves": [
+          "Matcha Gotcha",
+          "Life Dew",
+          "Rage Powder",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Draining Kiss",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Dragonite",
+        "item": "Dragoninite",
+        "ability": "Multiscale",
+        "nature": "Modest",
+        "moves": [
+          "Protect",
+          "Dragon Pulse",
+          "Heat Wave",
+          "Tailwind"
+        ],
+        "evs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Colbur Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Fake Out",
+          "Poison Jab",
+          "Close Combat",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Protect",
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Fake Out",
+          "Flare Blitz",
+          "Throat Chop",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Close Combat",
+          "Gunk Shot",
+          "Fake Out"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Accelerock",
+          "Rock Slide",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Protect",
+          "Overheat",
+          "Giga Drain",
+          "Rage Powder"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Timid",
+        "moves": [
+          "Protect",
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Light of Ruin",
+          "Moonblast",
+          "Dazzling Gleam",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Focus Sash",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Iron Head",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Farigiraf",
+        "item": "Sitrus Berry",
+        "ability": "Armor Tail",
+        "nature": "Relaxed",
+        "moves": [
+          "Psychic",
+          "Trick Room",
+          "Thunderbolt",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          32,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Sylveon",
+        "item": "Fairy Feather",
+        "ability": "Pixilate",
+        "nature": "Modest",
+        "moves": [
+          "Hyper Voice",
+          "Hyper Beam",
+          "Quick Attack",
+          "Detect"
+        ],
+        "evs": [
+          9,
+          0,
+          22,
+          20,
+          0,
+          15
+        ]
+      },
+      {
+        "name": "Aerodactyl-Mega",
+        "item": "Aerodactylite",
+        "ability": "Unnerve",
+        "nature": "Jolly",
+        "moves": [
+          "Rock Slide",
+          "Ice Fang",
+          "Dual Wingbeat",
+          "Tailwind"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Roseli Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Protect",
+          "Iron Head"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Protect",
+          "Aqua Jet",
+          "Last Respects"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Protect",
+          "Solar Beam"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Tailwind",
+          "Protect",
+          "Encore"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Protect",
+          "Light of Ruin"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Light of Ruin",
+          "Moonblast",
+          "Dazzling Gleam",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Occa Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Tailwind",
+          "Encore",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Roseli Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Dragon Claw",
+          "Stomping Tantrum",
+          "Poison Jab",
+          "Rock Slide"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Light of Ruin",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Bold",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Fake Out",
+          "Close Combat",
+          "Dire Claw",
+          "Quick Guard"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Heat Wave",
+          "Psyshock",
+          "Nasty Plot",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Careful",
+        "moves": [
+          "Parting Shot",
+          "Flare Blitz",
+          "Throat Chop",
+          "Fake Out"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Modest",
+        "moves": [
+          "Blizzard",
+          "Shadow Ball",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          2,
+          32,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Overheat",
+          "Rage Powder",
+          "Super Fang",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Close Combat",
+          "Gunk Shot",
+          "Fake Out",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Rock Slide",
+          "Accelerock",
+          "Close Combat",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Aqua Jet",
+          "Last Respects",
+          "Protect"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Last Respects",
+          "Aqua Jet",
+          "Wave Crash",
+          "Protect"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Overheat",
+          "Giga Drain",
+          "Rage Powder",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Fake Out",
+          "Close Combat",
+          "Dire Claw",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Snow Cloak",
+        "nature": "Timid",
+        "moves": [
+          "Blizzard",
+          "Aurora Veil",
+          "Shadow Ball",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Close Combat",
+          "Rock Slide",
+          "Accelerock",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Modest",
+        "moves": [
+          "Light of Ruin",
+          "Moonblast",
+          "Dazzling Gleam",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Solar Beam",
+          "Weather Ball",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Chople Berry",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Iron Head",
+          "Sucker Punch",
+          "Low Kick"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide",
+          "Protect"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Mystic Water",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Garchomp",
+        "item": "Sitrus Berry",
+        "ability": "Rough Skin",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Earthquake",
+          "Dragon Claw",
+          "Rock Slide"
+        ],
+        "evs": [
+          10,
+          30,
+          4,
+          0,
+          0,
+          22
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Jolly",
+        "moves": [
+          "Protect",
+          "Dire Claw",
+          "Fake Out",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Aqua Jet",
+          "Flip Turn"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Swords Dance",
+          "Sucker Punch",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Whimsicott",
+        "item": "Focus Sash",
+        "ability": "Prankster",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Encore",
+          "Tailwind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Charizard-Mega-Y",
+        "item": "Charizardite Y",
+        "ability": "Blaze",
+        "nature": "Modest",
+        "moves": [
+          "Heat Wave",
+          "Weather Ball",
+          "Solar Beam",
+          "Protect"
+        ],
+        "evs": [
+          24,
+          0,
+          14,
+          11,
+          0,
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Relaxed",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Trick Room",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Dazzling Gleam",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "moves": [
+          "Flare Blitz",
+          "Darkest Lariat",
+          "Parting Shot",
+          "Fake Out"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Dire Claw",
+          "Close Combat",
+          "Quick Guard",
+          "Fake Out"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Delphox-Mega",
+        "item": "Delphoxite",
+        "ability": "Blaze",
+        "nature": "Timid",
+        "moves": [
+          "Heat Wave",
+          "Psyshock",
+          "Nasty Plot",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Fake Out",
+          "Gunk Shot",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Protect",
+          "Giga Drain",
+          "Overheat",
+          "Rage Powder"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Protect",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Accelerock",
+          "Close Combat",
+          "Rock Slide"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Modest",
+        "moves": [
+          "Shadow Ball",
+          "Blizzard",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          2,
+          32,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Last Respects",
+          "Protect",
+          "Wave Crash",
+          "Aqua Jet"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Dragonite",
+        "item": "Dragon Fang",
+        "ability": "Multiscale",
+        "nature": "Adamant",
+        "moves": [
+          "Dragon Claw",
+          "Extreme Speed",
+          "Low Kick",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Dire Claw",
+          "Close Combat",
+          "Fake Out",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Incineroar",
+        "item": "Chople Berry",
+        "ability": "Intimidate",
+        "nature": "Adamant",
+        "moves": [
+          "Flare Blitz",
+          "Throat Chop",
+          "Fake Out",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Light of Ruin",
+          "Dazzling Gleam",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Choice Scarf",
+        "ability": "Adaptability",
+        "nature": "Jolly",
+        "moves": [
+          "Wave Crash",
+          "Last Respects",
+          "Flip Turn",
+          "Aqua Jet"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Tyranitar-Mega",
+        "item": "Tyranitarite",
+        "ability": "Sand Stream",
+        "nature": "Adamant",
+        "moves": [
+          "Rock Slide",
+          "Knock Off",
+          "Low Kick",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Calm",
+        "moves": [
+          "Rage Powder",
+          "Overheat",
+          "Giga Drain",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          19,
+          0,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "Mimikyu",
+        "item": "Fairy Feather",
+        "ability": "Disguise",
+        "nature": "Adamant",
+        "moves": [
+          "Play Rough",
+          "Shadow Claw",
+          "Shadow Sneak",
+          "Trick Room"
+        ],
+        "evs": [
+          1,
+          32,
+          1,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Corviknight",
+        "item": "Sharp Beak",
+        "ability": "Mirror Armor",
+        "nature": "Careful",
+        "moves": [
+          "Brave Bird",
+          "Tailwind",
+          "Bulk Up",
+          "Roost"
+        ],
+        "evs": [
+          27,
+          11,
+          1,
+          0,
+          5,
+          22
+        ]
+      },
+      {
+        "name": "Excadrill",
+        "item": "Focus Sash",
+        "ability": "Sand Rush",
+        "nature": "Adamant",
+        "moves": [
+          "Earthquake",
+          "Iron Head",
+          "Swords Dance",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Rotom-Wash",
+        "item": "Choice Scarf",
+        "ability": "Levitate",
+        "nature": "Timid",
+        "moves": [
+          "Volt Switch",
+          "Thunderbolt",
+          "Hydro Pump",
+          "Electroweb"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Sneasler",
+        "item": "White Herb",
+        "ability": "Unburden",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Fake Out",
+          "Gunk Shot",
+          "Close Combat"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Scovillain-Mega",
+        "item": "Scovillainite",
+        "ability": "Moody",
+        "nature": "Bold",
+        "moves": [
+          "Protect",
+          "Giga Drain",
+          "Overheat",
+          "Rage Powder"
+        ],
+        "evs": [
+          32,
+          0,
+          15,
+          0,
+          19,
+          0
+        ]
+      },
+      {
+        "name": "Kingambit",
+        "item": "Black Glasses",
+        "ability": "Defiant",
+        "nature": "Adamant",
+        "moves": [
+          "Kowtow Cleave",
+          "Sucker Punch",
+          "Protect",
+          "Swords Dance"
+        ],
+        "evs": [
+          32,
+          32,
+          0,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Lycanroc-Dusk",
+        "item": "Focus Sash",
+        "ability": "Tough Claws",
+        "nature": "Adamant",
+        "moves": [
+          "Protect",
+          "Accelerock",
+          "Close Combat",
+          "Rock Slide"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Froslass-Mega",
+        "item": "Froslassite",
+        "ability": "Cursed Body",
+        "nature": "Modest",
+        "moves": [
+          "Shadow Ball",
+          "Blizzard",
+          "Aurora Veil",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          2,
+          32,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Basculegion",
+        "item": "Sitrus Berry",
+        "ability": "Adaptability",
+        "nature": "Adamant",
+        "moves": [
+          "Last Respects",
+          "Protect",
+          "Wave Crash",
+          "Aqua Jet"
+        ],
+        "evs": [
+          12,
+          28,
+          7,
+          0,
+          19,
+          0
+        ]
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "name": "Incineroar",
+        "item": "Sitrus Berry",
+        "ability": "Intimidate",
+        "nature": "Impish",
+        "moves": [
+          "Fake Out",
+          "Flare Blitz",
+          "Throat Chop",
+          "Parting Shot"
+        ],
+        "evs": [
+          32,
+          0,
+          20,
+          0,
+          14,
+          0
+        ]
+      },
+      {
+        "name": "Ceruledge",
+        "item": "Colbur Berry",
+        "ability": "Flash Fire",
+        "nature": "Adamant",
+        "moves": [
+          "Bitter Blade",
+          "Shadow Sneak",
+          "Bulk Up",
+          "Protect"
+        ],
+        "evs": [
+          30,
+          32,
+          0,
+          0,
+          0,
+          4
+        ]
+      },
+      {
+        "name": "Sneasler",
+        "item": "Focus Sash",
+        "ability": "Poison Touch",
+        "nature": "Jolly",
+        "moves": [
+          "Fake Out",
+          "Dire Claw",
+          "Close Combat",
+          "Throat Chop"
+        ],
+        "evs": [
+          2,
+          32,
+          0,
+          0,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Milotic",
+        "item": "Leftovers",
+        "ability": "Competitive",
+        "nature": "Bold",
+        "moves": [
+          "Muddy Water",
+          "Hypnosis",
+          "Coil",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          32,
+          0,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Floette-Eternal",
+        "item": "Floettite",
+        "ability": "Flower Veil",
+        "nature": "Timid",
+        "moves": [
+          "Moonblast",
+          "Draining Kiss",
+          "Calm Mind",
+          "Protect"
+        ],
+        "evs": [
+          2,
+          0,
+          0,
+          32,
+          0,
+          32
+        ]
+      },
+      {
+        "name": "Sinistcha",
+        "item": "Kasib Berry",
+        "ability": "Hospitality",
+        "nature": "Calm",
+        "moves": [
+          "Matcha Gotcha",
+          "Rage Powder",
+          "Life Dew",
+          "Protect"
+        ],
+        "evs": [
+          32,
+          0,
+          14,
+          0,
+          20,
+          0
+        ]
+      }
+    ]
+  }
+]

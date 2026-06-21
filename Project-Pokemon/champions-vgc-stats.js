@@ -49,7 +49,7 @@ function cleanPokemonJson(rawChaosData) {
 
         cleaned.pokemon[pokemonName]["Abilities"] = processTopData(stats["Abilities"]);
         cleaned.pokemon[pokemonName]["Items"] = processTopData(stats["Items"], 5);
-        cleaned.pokemon[pokemonName]["Spreads"] = processTopData(stats["Spreads"], 5);
+        cleaned.pokemon[pokemonName]["Spreads"] = processTopData(stats["Spreads"], 15);
         cleaned.pokemon[pokemonName]["Moves"] = processTopData(stats["Moves"], 10);
         cleaned.pokemon[pokemonName]["Teammates"] = processTopData(stats["Teammates"], 10);
     }

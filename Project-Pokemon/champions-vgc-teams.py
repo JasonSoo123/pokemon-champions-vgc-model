@@ -213,7 +213,7 @@ def scrape_top_50_vgc():
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(all_teams_json, f, indent=2, ensure_ascii=False)
 
-    print(f"\nCompleted! Generated exactly {len(all_teams_json)} teams into '{output_file}'.")
+    print(f"\nCompleted! Generated {len(all_teams_json)} teams into '{output_file}'.")
 
 
 if __name__ == "__main__":

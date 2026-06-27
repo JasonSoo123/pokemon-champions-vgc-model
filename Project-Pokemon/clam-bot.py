@@ -1,36 +1,30 @@
 import asyncio
+import os
+import json
+import random
 from poke_env.player import Player, RandomPlayer
+from poke_env.player.battle_order import DoubleBattleOrder, PassBattleOrder
 
 EX_VGC_TEAM = '''
-Charizard @ Charizardite Y  
-Ability: Blaze  
+Incineroar @ Sitrus Berry  
+Ability: Intimidate  
 Level: 50  
-EVs: 2 Atk / 32 SpA / 32 Spe  
-Hasty Nature  
-- Acrobatics  
-- Air Slash  
-- Ancient Power  
-- Body Slam  
+EVs: 32 HP / 32 Atk / 2 SpD  
+Adamant Nature  
+- Fake Out  
+- Darkest Lariat  
+- Flare Blitz 
+- Parting Shot
 
 Blastoise @ Blastoisinite  
 Ability: Torrent  
 Level: 50  
-EVs: 32 HP / 32 Atk / 2 SpA  
-Brave Nature  
-- Aqua Jet  
-- Aqua Tail  
+EVs: 32 HP / 32 SpA / 2 Spe  
+Modest Nature  
 - Aura Sphere  
-- Avalanche  
-
-Palafin @ Choice Scarf  
-Ability: Zero to Hero  
-Level: 50  
-EVs: 2 Atk / 32 SpA / 32 Spe  
-Naive Nature  
-- Aqua Tail  
-- Aura Sphere  
-- Blizzard  
-- Boomburst  
+- Dark Pulse  
+- Water Spout  
+- Fake Out   
 
 Basculegion (M) @ Focus Sash  
 Ability: Adaptability  
@@ -62,14 +56,99 @@ Timid Nature
 - Earth Power  
 - Energy Ball  
 
+Aegislash @ Metal Coat  
+Ability: Stance Change  
+Level: 50  
+EVs: 32 HP / 32 Atk / 2 SpD  
+Adamant Nature  
+- Shadow Sneak  
+- King's Shield  
+- Iron Head  
+- Swords Dance
+
 '''
+# ------------------------ Opening stats json for info ----------------------- #
+DIRECTORY = os.path.dirname(os.path.abspath(__file__))
+with open(DIRECTORY + '/champions-vgc-stats.json', 'r') as file:
+    raw_vgc_data = json.load(file)
+    POKEMON_VGC_DATA = raw_vgc_data.get('pokemon', raw_vgc_data)
 
+
+fakeout_pokemon = []
+tailwind_pokemon = []
+trickroom_pokemon = []
+# -------------------------- getting fakeout_pokemon ------------------------- #
+for pokemon_name, data in POKEMON_VGC_DATA.items():
+    
+    moves = data.get("Moves", {})
+    
+    if "fakeout" in moves and pokemon_name.lower() not in fakeout_pokemon:
+        fakeout_pokemon.append(pokemon_name.lower())
+    if "tailwind" in moves and pokemon_name.lower() not in tailwind_pokemon:
+        tailwind_pokemon.append(pokemon_name.lower())
+    if "trickroom" in moves and pokemon_name.lower() not in trickroom_pokemon:
+        trickroom_pokemon.append(pokemon_name.lower())
+# ---------------------------------- VGC bot --------------------------------- #
 class ClamBot(Player):
+    
     def choose_move(self, battle):
-        return self.choose_random_doubles_move(battle)
-
+        
+        best_score = -1
+        best_order = None
+        
+        if any(battle.force_switch):
+            left_switch = None
+            right_switch = None
+            if battle.force_switch[0] and battle.available_switches[0]:
+                left_switch = self.create_order(battle.available_switches[0][0])
+            if battle.force_switch[1] and battle.available_switches[1]:
+                right_switch = self.create_order(battle.available_switches[1][0])
+            if left_switch and right_switch:
+                return DoubleBattleOrder(left_switch, right_switch)
+            elif left_switch:
+                return left_switch
+            elif right_switch:
+                return right_switch
+    
+        if battle.available_moves[0] and battle.available_moves[1]:
+            for l_move in battle.available_moves[0]:
+                for r_move in battle.available_moves[1]:
+                    current_score = l_move.base_power + r_move.base_power
+                   
+                    if current_score > best_score:
+                        best_score = current_score
+                        left_order = self.create_order(l_move, move_target=1)
+                        right_order = self.create_order(r_move, move_target=2)
+                        best_order = DoubleBattleOrder(left_order, right_order)
+                       
+            return best_order
+        elif battle.available_moves[0]:
+            for l_move in battle.available_moves[0]:
+                current_score = l_move.base_power
+                if current_score > best_score:
+                    best_score = current_score
+                    left_order = self.create_order(l_move, move_target=1)
+                    
+            
+            return left_order
+        elif battle.available_moves[1]:
+            for r_move in battle.available_moves[1]:
+                current_score = r_move.base_power
+                if current_score > best_score:
+                    best_score = current_score
+                    right_order = self.create_order(r_move, move_target=1)
+                    
+            
+            return right_order
+        
+        else:
+            print("random move")
+            return self.choose_random_doubles_move(battle)
+            
+    
     def teampreview(self, battle):
         return self.random_teampreview(battle)
+      
 
 async def main():
     player1 = ClamBot(
@@ -77,13 +156,13 @@ async def main():
         team=EX_VGC_TEAM
     )
     
-    player2 = ClamBot(
+    player2 = RandomPlayer(
         battle_format="gen9championsvgc2026regma",
         team=EX_VGC_TEAM
     )
 
     # Set n_battles=1 so you can see it complete a single match
-    await player1.battle_against(player2, n_battles=2)
+    await player1.battle_against(player2, n_battles=3)
 
 if __name__ == "__main__":
     asyncio.run(main())

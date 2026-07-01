@@ -11,10 +11,10 @@ Ability: Intimidate
 Level: 50  
 EVs: 32 HP / 32 Atk / 2 SpD  
 Adamant Nature  
-- Fake Out  
 - Darkest Lariat  
-- Flare Blitz 
 - Parting Shot
+- Flare Blitz 
+- Fake Out 
 
 Blastoise @ Blastoisinite  
 Ability: Torrent  
@@ -95,7 +95,7 @@ class ClamBot(Player):
         
         best_score = -1
         best_order = None
-        
+        # If there is a force switch
         if any(battle.force_switch):
             left_switch = None
             right_switch = None
@@ -114,30 +114,42 @@ class ClamBot(Player):
             for l_move in battle.available_moves[0]:
                 for r_move in battle.available_moves[1]:
                     current_score = l_move.base_power + r_move.base_power
+                    
+                    # fakeout
+                    if l_move.id == "fakeout" or r_move.id == "fakeout":
+                        current_score += 500
                    
                     if current_score > best_score:
                         best_score = current_score
                         left_order = self.create_order(l_move, move_target=1)
                         right_order = self.create_order(r_move, move_target=2)
                         best_order = DoubleBattleOrder(left_order, right_order)
-                       
+            
             return best_order
+        # Only left pokemon has an avaliable move
         elif battle.available_moves[0]:
             for l_move in battle.available_moves[0]:
                 current_score = l_move.base_power
+                
+                if l_move.id == "fakeout":
+                        current_score += 500
+                        
                 if current_score > best_score:
                     best_score = current_score
                     left_order = self.create_order(l_move, move_target=1)
                     
-            
             return left_order
+        # Only right pokemon has an avaliable move
         elif battle.available_moves[1]:
             for r_move in battle.available_moves[1]:
                 current_score = r_move.base_power
+                
+                if r_move.id == "fakeout":
+                        current_score += 500
+                
                 if current_score > best_score:
                     best_score = current_score
                     right_order = self.create_order(r_move, move_target=1)
-                    
             
             return right_order
         

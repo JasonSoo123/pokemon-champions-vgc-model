@@ -89,6 +89,7 @@ for pokemon_name, data in POKEMON_VGC_DATA.items():
     if "trickroom" in moves and pokemon_name.lower() not in trickroom_pokemon:
         trickroom_pokemon.append(pokemon_name.lower())
 # ---------------------------------- VGC bot --------------------------------- #
+NON_SINGLE_TARGET = ["ALL_ADJACENT_FOES", "ALL_ADJACENT", "ALL", "SELF", "ADJACENT_ALLY_OR_SELF"]
 class ClamBot(Player):
     
     def choose_move(self, battle):
@@ -121,8 +122,19 @@ class ClamBot(Player):
                    
                     if current_score > best_score:
                         best_score = current_score
-                        left_order = self.create_order(l_move, move_target=1)
-                        right_order = self.create_order(r_move, move_target=2)
+                        
+                        # Choosing targets
+                        if l_move.target.name in NON_SINGLE_TARGET:
+                            l_target = 0
+                        else:
+                            l_target = 1
+                        if r_move.target.name in NON_SINGLE_TARGET:
+                            r_target = 0
+                        else:
+                            r_target = 2
+                            
+                        left_order = self.create_order(l_move, move_target=l_target)
+                        right_order = self.create_order(r_move, move_target=r_target)
                         best_order = DoubleBattleOrder(left_order, right_order)
             
             return best_order
@@ -136,7 +148,14 @@ class ClamBot(Player):
                         
                 if current_score > best_score:
                     best_score = current_score
-                    left_order = self.create_order(l_move, move_target=1)
+                    
+                    # Choosing target
+                    if l_move.target.name in NON_SINGLE_TARGET:
+                        l_target = 0
+                    else:
+                        l_target = 1
+                        
+                    left_order = self.create_order(l_move, move_target=l_target)
                     
             return left_order
         # Only right pokemon has an avaliable move
@@ -149,7 +168,14 @@ class ClamBot(Player):
                 
                 if current_score > best_score:
                     best_score = current_score
-                    right_order = self.create_order(r_move, move_target=1)
+                    
+                    # Choosing target
+                    if r_move.target.name in NON_SINGLE_TARGET:
+                        r_target = 0
+                    else:
+                        r_target = 2
+                        
+                    right_order = self.create_order(r_move, move_target=r_target)
             
             return right_order
         

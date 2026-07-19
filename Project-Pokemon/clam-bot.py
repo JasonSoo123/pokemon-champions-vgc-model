@@ -1,6 +1,7 @@
 import asyncio
 import os
 import json
+import math
 import random
 from poke_env.player import Player, RandomPlayer
 from poke_env.player.battle_order import DoubleBattleOrder, PassBattleOrder
@@ -92,10 +93,88 @@ for pokemon_name, data in POKEMON_VGC_DATA.items():
 NON_SINGLE_TARGET = ["ALL_ADJACENT_FOES", "ALL_ADJACENT", "ALL", "SELF", "ADJACENT_ALLY_OR_SELF"]
 class ClamBot(Player):
     
-    def choose_move(self, battle):
+    def isFaster(self, my_pokemon, opp_pokemon):
+        if my_pokemon is None or opp_pokemon is None or my_pokemon.fainted or opp_pokemon.fainted:
+            return False
         
+        # Get speed stat of my pokemon and base stats of opps
+        my_speed = my_pokemon.stats.get('spe', 0)
+        opp_base_speed = opp_pokemon.base_stats.get('spe', 0)
+        
+        # Get the speed boosts if there are any
+        my_speed_boost = my_pokemon.boosts.get('spe', 0)
+        opp_speed_boost = opp_pokemon.boosts.get('spe', 0)
+        
+        # Calculate speed
+        if my_speed_boost >= 0:
+            my_speed = math.floor(my_speed * ((2 + my_speed_boost)/2))
+        else:
+            my_speed = math.floor(my_speed * (2/(2 - my_speed_boost)))
+        
+        # Calculate opps speed
+        if opp_speed_boost >= 0:
+            opp_speed = math.floor((math.floor((2 * opp_base_speed + 31) * (1/2)) + 5) * ((2 + opp_speed_boost)/2))
+        else:
+            opp_speed = math.floor((math.floor((2 * opp_base_speed + 31) * (1/2)) + 5) * (2/(2 - opp_speed_boost)))
+
+        # Check for par status
+        if my_pokemon.status is not None and my_pokemon.status.name == 'PAR':
+            my_speed = math.floor(my_speed * 0.5)
+
+        if opp_pokemon.status is not None and opp_pokemon.status.name == 'PAR':
+            opp_speed = math.floor(opp_speed * 0.5)
+        
+        return my_speed > opp_speed
+    
+    def choose_best_order(self, pokemon, battle, available_moves):
         best_score = -1
         best_order = None
+        
+        # Check if this pokemon is faster than all opponents
+        pokemon_is_faster = all(self.isFaster(pokemon, opp) for opp in battle.opponent_active_pokemon)
+        
+        for move in available_moves:
+            
+            # --- Spread / Multi-Target Moves ---
+            if move.target.name in NON_SINGLE_TARGET:
+                total_multiplier = 0
+                
+                for opp in battle.opponent_active_pokemon:
+                    if opp is not None and not opp.fainted:
+                        total_multiplier += opp.damage_multiplier(move)
+                
+                current_score = move.base_power * total_multiplier
+                    
+                if current_score > best_score:
+                    best_score = current_score
+                    best_order = self.create_order(move, move_target=0)
+                    
+            # --- Single Target Moves ---
+            else:
+                # Loop through both opponents to see which one we hit harder
+                for i, opp in enumerate(battle.opponent_active_pokemon):
+                    if opp is not None and not opp.fainted:
+                        multiplier = opp.damage_multiplier(move)
+                        
+                        current_score = move.base_power * multiplier
+                        
+                        # Scale Fake Out bonus by multiplier to prevent using it on Ghost types!
+                        if move.id == "fakeout":
+                            current_score += (999 * multiplier)
+                            
+                        if current_score > best_score:
+                            best_score = current_score
+                            
+                            # In poke-env: Target 1 is opponent's left (index 0). Target 2 is opponent's right (index 1).
+                            target = i + 1 
+                            best_order = self.create_order(move, move_target=target)
+        
+        print(f"best order is: {best_order}")         
+        return best_order
+        
+    
+    def choose_move(self, battle):
+
         # If there is a force switch
         if any(battle.force_switch):
             left_switch = None
@@ -110,79 +189,24 @@ class ClamBot(Player):
                 return left_switch
             elif right_switch:
                 return right_switch
-    
+            
         if battle.available_moves[0] and battle.available_moves[1]:
-            for l_move in battle.available_moves[0]:
-                for r_move in battle.available_moves[1]:
-                    current_score = l_move.base_power + r_move.base_power
-                    
-                    # fakeout
-                    if l_move.id == "fakeout" or r_move.id == "fakeout":
-                        current_score += 500
-                   
-                    if current_score > best_score:
-                        best_score = current_score
-                        
-                        # Choosing targets
-                        if l_move.target.name in NON_SINGLE_TARGET:
-                            l_target = 0
-                        else:
-                            l_target = 1
-                        if r_move.target.name in NON_SINGLE_TARGET:
-                            r_target = 0
-                        else:
-                            r_target = 2
-                            
-                        left_order = self.create_order(l_move, move_target=l_target)
-                        right_order = self.create_order(r_move, move_target=r_target)
-                        best_order = DoubleBattleOrder(left_order, right_order)
             
-            return best_order
-        # Only left pokemon has an avaliable move
+            left_order = self.choose_best_order(battle.active_pokemon[0], battle, battle.available_moves[0])
+            right_order = self.choose_best_order(battle.active_pokemon[1], battle, battle.available_moves[1])
+            
+            return DoubleBattleOrder(left_order, right_order)
+            
         elif battle.available_moves[0]:
-            for l_move in battle.available_moves[0]:
-                current_score = l_move.base_power
-                
-                if l_move.id == "fakeout":
-                        current_score += 500
-                        
-                if current_score > best_score:
-                    best_score = current_score
-                    
-                    # Choosing target
-                    if l_move.target.name in NON_SINGLE_TARGET:
-                        l_target = 0
-                    else:
-                        l_target = 1
-                        
-                    left_order = self.create_order(l_move, move_target=l_target)
-                    
-            return left_order
-        # Only right pokemon has an avaliable move
-        elif battle.available_moves[1]:
-            for r_move in battle.available_moves[1]:
-                current_score = r_move.base_power
-                
-                if r_move.id == "fakeout":
-                        current_score += 500
-                
-                if current_score > best_score:
-                    best_score = current_score
-                    
-                    # Choosing target
-                    if r_move.target.name in NON_SINGLE_TARGET:
-                        r_target = 0
-                    else:
-                        r_target = 2
-                        
-                    right_order = self.create_order(r_move, move_target=r_target)
+            return self.choose_best_order(battle.active_pokemon[0], battle, battle.available_moves[0])
             
-            return right_order
-        
+        elif battle.available_moves[1]:
+            return self.choose_best_order(battle.active_pokemon[1], battle, battle.available_moves[1])
+            
+        # Fallback to random selection
         else:
             print("random move")
             return self.choose_random_doubles_move(battle)
-            
     
     def teampreview(self, battle):
         return self.random_teampreview(battle)
@@ -200,7 +224,7 @@ async def main():
     )
 
     # Set n_battles=1 so you can see it complete a single match
-    await player1.battle_against(player2, n_battles=3)
+    await player1.battle_against(player2, n_battles=1)
 
 if __name__ == "__main__":
     asyncio.run(main())

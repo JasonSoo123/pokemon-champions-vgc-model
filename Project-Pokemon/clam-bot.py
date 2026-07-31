@@ -240,6 +240,22 @@ class ClamBot(Player):
         if move.category == MoveCategory.PHYSICAL and my_pokemon.status == Status.BRN:
             damage *= 0.5
         
+        # Consider screens
+        if move.category == MoveCategory.PHYSICAL and SideCondition.REFLECT in battle.opponent_side_conditions:
+            if (move.id != "brickbreak" or move.id != "psychicfangs" or move.id != "ragingbull" 
+                or my_pokemon.ability != "infiltrator"):
+                damage *= 0.67
+        
+        if move.category == MoveCategory.SPECIAL and SideCondition.LIGHT_SCREEN in battle.opponent_side_conditions:
+            if (move.id != "brickbreak" or move.id != "psychicfangs" or move.id != "ragingbull" 
+                or my_pokemon.ability != "infiltrator"):
+                damage *= 0.67
+        
+        if SideCondition.AURORA_VEIL in battle.opponent_side_conditions:
+            if (move.id != "brickbreak" or move.id != "psychicfangs" or move.id != "ragingbull" 
+                or my_pokemon.ability != "infiltrator"):
+                damage *= 0.67
+                
         # Type multiplier
         damage *= opp_pokemon.damage_multiplier(move)
         

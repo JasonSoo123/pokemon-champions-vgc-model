@@ -100,7 +100,82 @@ NON_SINGLE_TARGET = ["ALL_ADJACENT_FOES", "ALL_ADJACENT", "ALL", "SELF", "ADJACE
                      "ALLY_TEAM", "SELF", "ADJACENT_ALLY", "SCRIPTED", "FOE_SIDE"]
 class ClamBot(Player):
     
-    # Helper function to determine if pokemon is faster than other pokemon
+    def __init__(self, *args, **kwargs):
+        # This safely passes all configuration arguments (team, format, etc.) to the parent class
+        super().__init__(*args, **kwargs)
+        
+        # Initialize opp team move pool attribute
+        self.opp_team_movepool = {}
+    
+    """Register opp pokemon into the dict"""    
+    def register_opp_pokemon(self, pokemon_name):
+        formatted_name = pokemon_name.capitalize()
+        
+        if formatted_name not in self.opp_team_movepool:
+            self.opp_team_movepool[formatted_name] = {}
+            
+            
+            pokemon_data = POKEMON_VGC_DATA.get(formatted_name, {})
+            moves_dict = pokemon_data.get("Moves", {})
+            
+            # Sort the dictionary by usage count (highest to lowest) and slice the top 4
+            top_moves = sorted(moves_dict.items(), key=lambda item: item[1], reverse=True)[:4]
+            
+            for move_name, usage_prob in top_moves:
+                self.opp_team_movepool[formatted_name][move_name] = {
+                    "status": 1,         # 1 = Unconfirmed
+                    "prob": usage_prob   # Store the raw usage count/prob to know which to drop later
+                }
+       
+    """Updates the tracker when an opponent reveals a move."""
+    def record_revealed_move(self, pokemon_name, move_name):
+        formatted_name = pokemon_name.capitalize()
+        
+        # Safety check: ensure the pokemon is registered
+        if formatted_name not in self.opp_team_movepool:
+            self.register_opp_pokemon(pokemon_name)
+            
+        tracked_moves = self.opp_team_movepool[formatted_name]
+        
+        # If the move is already in our predicted pool, lock it in as confirmed (0)
+        if move_name in tracked_moves:
+            tracked_moves[move_name]["status"] = 0
+            tracked_moves[move_name]["prob"] = float('inf') # Ensure it never gets dropped
+            
+        else:
+            # The move wasn't predicted. If we already have 4 moves, we must drop one.
+            if len(tracked_moves) >= 4:
+                
+                # Filter out the moves that are still unconfirmed (status == 1)
+                unconfirmed_moves = {m: data for m, data in tracked_moves.items() if data["status"] == 1}
+                
+                if unconfirmed_moves:
+                    # Find the unconfirmed move with the lowest probability score
+                    move_to_drop = min(unconfirmed_moves, key=lambda m: unconfirmed_moves[m]["prob"])
+                    del tracked_moves[move_to_drop]
+            
+            # Add the newly revealed move as confirmed
+            tracked_moves[move_name] = {
+                "status": 0,
+                "prob": float('inf')
+            }
+    
+    """Call this at the start of every turn to keep the dictionary updated."""
+    def update_opponent_knowledge(self, battle):
+        # Loop through all opponent pokemon that have been revealed
+        for opp_mon in battle.opponent_team.values():
+            
+            # 1. Register the pokemon if we haven't seen it yet
+            self.register_opp_pokemon(opp_mon.species)
+            
+            # 2. In poke-env, a pokemon object automatically logs moves in its .moves dictionary 
+            # once they are revealed in battle. We can sync that with our custom tracker!
+            for revealed_move in opp_mon.moves:
+                self.record_revealed_move(opp_mon.species, revealed_move)
+        
+        print(f"opp_team_movepool: {self.opp_team_movepool}")
+    
+    """Helper function to determine if pokemon is faster than other pokemon"""
     def isFaster(self, my_pokemon, opp_pokemon):
         if my_pokemon is None or opp_pokemon is None or my_pokemon.fainted or opp_pokemon.fainted:
             return False
@@ -134,8 +209,8 @@ class ClamBot(Player):
         print(f"my speed is: {my_speed}, opp speed is: {opp_speed}")
         return my_speed > opp_speed
     
-    # Helper function to calculate damage of attacking pokemon v. defending/opp pokemon
-    def calculate_damage(self, my_pokemon, opp_pokemon, move, battle):
+    """Helper function to calculate damage of attacking pokemon v. defending/opp pokemon"""
+    def atk_calculate_damage(self, my_pokemon, opp_pokemon, move, battle):
         
         # if non damaging move return 0
         if move.base_power == 0:
@@ -304,12 +379,14 @@ class ClamBot(Player):
                 
             if Field.GRASSY_TERRAIN in battle.fields:
                 damage *= 1.5
-                
+        
+        # If move is bug type        
         elif move_type == PokemonType.BUG:
             
             if my_pokemon.item == "silverpowder" or my_pokemon.item == "insectplate":
                 damage *= 1.2
         
+        # If move is dark type 
         elif move_type == PokemonType.DARK:
             
             if my_pokemon.item == "blackglasses" or my_pokemon.item == "dreadplate":
@@ -317,7 +394,8 @@ class ClamBot(Player):
             
             if my_pokemon.ability == "darkaura":
                 damage *= 1.33
-                
+        
+        # If move is dragon type         
         elif move_type == PokemonType.DRAGON:
             
             if my_pokemon.item == "dragonfang" or my_pokemon.item == "dracoplate":
@@ -326,6 +404,7 @@ class ClamBot(Player):
             if my_pokemon.ability == "dragonsmaw":
                 damage *= 1.5
         
+        # If move is electric type 
         elif move_type == PokemonType.ELECTRIC:
             
             if my_pokemon.item == "magnet" or my_pokemon.item == "zapplate":
@@ -337,6 +416,7 @@ class ClamBot(Player):
             if Field.ELECTRIC_TERRAIN in battle.fields:
                 damage *= 1.5
         
+        # If move is fairy type 
         elif move_type == PokemonType.FAIRY:
             
             if my_pokemon.item == "fairyfeather" or my_pokemon.item == "pixieplate":
@@ -348,21 +428,25 @@ class ClamBot(Player):
             if Field.MISTY_TERRAIN in battle.fields:
                 damage *= 1.5
         
+        # If move is fighting type 
         elif move_type == PokemonType.FIGHTING:
             
             if my_pokemon.item == "blackbelt" or my_pokemon.item == "fistplate":
                 damage *= 1.2
         
+        # If move is flying type 
         elif move_type == PokemonType.FLYING:
             
             if my_pokemon.item == "sharpbeak" or my_pokemon.item == "skyplate":
                 damage *= 1.2
         
+        # If move is ghost type 
         elif move_type == PokemonType.GHOST:
             
             if my_pokemon.item == "spelltag" or my_pokemon.item == "spookyplate":
                 damage *= 1.2
         
+        # If move is ground type 
         elif move_type == PokemonType.GROUND:
             
             if my_pokemon.item == "softsand" or my_pokemon.item == "earthplate":
@@ -370,6 +454,9 @@ class ClamBot(Player):
                 
             if my_pokemon.ability == "sandforce" and battle.weather == Weather.SANDSTORM:
                 damage *= 1.3
+            
+            if "levitate" in opp_pokemon.possible_abilities and len(opp_pokemon.possible_abilities) == 1:
+                damage *= 0
         
         elif move_type == PokemonType.ICE:
             
@@ -427,7 +514,12 @@ class ClamBot(Player):
         
         return damage_percentage
     
-    # Helper function to choose the best order for a specific pokemon in the current battle
+    def def_calculate_defensive_score(self, my_pokemon, battle):
+        most_damage = 0
+        highest_damaging_move = None
+        return most_damage, highest_damaging_move
+    
+    """Helper function to choose the best order for a specific pokemon in the current battle"""
     def choose_best_order(self, pokemon, battle, available_moves):
         best_score = -1
         best_order = None
@@ -436,7 +528,6 @@ class ClamBot(Player):
             
             # --- Spread / Multi-Target Moves / Status / (NON-SINGLE TARGET DMGING MOVES) ---
             if move.target.name in NON_SINGLE_TARGET:
-                total_multiplier = 0
                 
                 # Tailwind conditions
                 if move.id == "tailwind":
@@ -448,9 +539,7 @@ class ClamBot(Player):
                 
                 for opp in battle.opponent_active_pokemon:
                     if opp is not None and not opp.fainted:
-                        total_multiplier += opp.damage_multiplier(move)
-                
-                current_score = move.base_power * total_multiplier
+                        current_score += self.atk_calculate_damage(pokemon, opp, move, battle)
                     
                 if current_score > best_score:
                     best_score = current_score
@@ -463,31 +552,25 @@ class ClamBot(Player):
                     
                     if opp is not None and not opp.fainted:
                         
-                        print(f"{move} does {self.calculate_damage(pokemon, opp, move, battle)} to {opp}")
+                        current_score = self.atk_calculate_damage(pokemon, opp, move, battle)
                         
-                        multiplier = opp.damage_multiplier(move)
-                        
-                        current_score = move.base_power * multiplier
-                        
-                        # Scale Fake Out bonus by multiplier to prevent using it on Ghost types!
                         if move.id == "fakeout":
-                            current_score += (999 * multiplier)
+                            current_score *= 500
                             
                         if current_score > best_score:
                             best_score = current_score
                             
-                            # In poke-env: Target 1 is opponent's left (index 0). Target 2 is opponent's right (index 1).
+                            # In poke-env: Target 1 is opponent's left (index 0). Target 2 is opponent's right (index 1)
                             target = i + 1 
                             best_order = self.create_order(move, move_target=target)
-                            
-                            #print(f"current best order is: {best_order} and it did {self.calculate_damage(pokemon, opp, move, battle)}")
         
         print(f"best order is: {best_order}")         
         return best_order
-        
     
+        
     def choose_move(self, battle):
 
+        self.update_opponent_knowledge(battle)
         # If there is a force switch
         if any(battle.force_switch):
             left_switch = None

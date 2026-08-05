@@ -107,6 +107,7 @@ class ClamBot(Player):
         
         # Initialize opp team move pool attribute
         self.opp_team_movepool = {}
+        self.mega = False
     
     """Register opp pokemon into the dict"""    
     def register_opp_pokemon(self, pokemon_name):
@@ -651,6 +652,16 @@ class ClamBot(Player):
         best_score = -1
         best_order = None
         
+        # Mega Evolution
+        slot_index = battle.active_pokemon.index(pokemon)
+        should_mega = False
+        
+        if not self.mega:
+            should_mega = battle.can_mega_evolve[slot_index]
+            
+            if should_mega:
+                self.mega = True
+                
         for move in available_moves:
             
             # --- Spread / Multi-Target Moves / Status / (NON-SINGLE TARGET DMGING MOVES) ---
@@ -664,7 +675,7 @@ class ClamBot(Player):
                     
                 if current_score > best_score:
                     best_score = current_score
-                    best_order = self.create_order(move, move_target=0)
+                    best_order = self.create_order(move, move_target=0, mega=should_mega)
                     
             # --- Single Target Moves ---
             else:
@@ -683,7 +694,7 @@ class ClamBot(Player):
                             
                             # In poke-env: Target 1 is opponent's left (index 0). Target 2 is opponent's right (index 1)
                             target = i + 1 
-                            best_order = self.create_order(move, move_target=target)
+                            best_order = self.create_order(move, move_target=target, mega=should_mega)
         
         print(f"best order is: {best_order}")         
         return best_order
